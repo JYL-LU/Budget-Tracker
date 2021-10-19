@@ -21,10 +21,13 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
+    "image-webpack-loader": "^8.0.1",
     "mongoose": "^5.13.11",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "sw-precache-webpack-plugin": "^1.0.0",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "devDependencies": {
-    "webpack-bundle-analyzer": "^4.4.2"
+    "webpack-bundle-analyzer": "^4.5.0"
   }
 }
